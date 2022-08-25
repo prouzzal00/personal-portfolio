@@ -15,6 +15,10 @@ h1 {
 
 }
 
+.innocent {
+    color: rgb(227, 42, 79);
+}
+
 .first-image img {
     width: 50%;
     margin-left: 10px;
@@ -68,4 +72,42 @@ h1 {
 
 .web-color {
     color: rgb(0, 255, 191);
+}
+
+.exp {
+    color: rgb(241, 12, 218);
+}
+
+.skill-menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+
+}
+
+.html-menu {
+    width: 40%;
+    padding-left: 4%;
+    box-shadow: 10px 10px 40px rgb(152, 0, 41);
+    border-radius: 15px;
+    border-left: 10px solid rgb(0, 30, 128);
+}
+
+.html-menu:hover {
+    box-shadow: 15px 15px 40px rgb(75, 75, 5);
+}
+
+.css-menu {
+    width: 40%;
+    box-shadow: 10px 10px 40px rgb(152, 0, 127);
+    border-radius: 15px;
+    border-left: 10px solid rgb(0, 128, 124);
+}
+
+.css-menu:hover {
+    box-shadow: 15px 15px 40px yellowgreen;
+}
+
+.cpy {
+    text-align: center;
 }
