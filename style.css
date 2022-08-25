@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-sec {
+    display: flex;
+
+}
+
+h1 {
+    font-size: 45px;
+
+}
+
+.first-image img {
+    width: 50%;
+    margin-left: 10px;
+    padding-top: 4%;
+}
+
+.sectionp {
+    padding-left: 4%;
+}
+
+.personal-info {
+    padding-right: 30px;
+    width: 100%;
+}
+
+.name {
+    color: deeppink;
+}
+
+.contact {
+    text-decoration: none;
+    background-image: linear-gradient(orange, pink);
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.contact:hover {
+    color: red;
+    background-image: linear-gradient(blue, green);
+}
