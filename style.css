@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background-image: url(images/Data-Mining-2.jpg);
 }
 
 .first-sec {
@@ -21,7 +22,7 @@ h1 {
 }
 
 .sectionp {
-    padding-left: 4%;
+    padding-left: 3%;
 }
 
 .personal-info {
@@ -43,4 +44,28 @@ h1 {
 .contact:hover {
     color: red;
     background-image: linear-gradient(blue, green);
+}
+
+.second-sec {
+    display: flex;
+}
+
+.second-image img {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 20%;
+}
+
+.personal-infof {
+    padding-right: 30px;
+    width: 100%;
+    padding-top: 15%;
+}
+
+.dream-color {
+    color: rgb(251, 70, 4);
+}
+
+.web-color {
+    color: rgb(0, 255, 191);
 }
